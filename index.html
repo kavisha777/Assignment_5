@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>  
 </head>
-<body>
+<body class="bg-black">
     <section class="bg-black">
         <nav class="text-white">
             <div class="flex justify-between">
@@ -16,15 +17,15 @@
                 </div>
                 <div class="text-right flex">
                     <div class="m-4">
-                       <p class="text-xl text-[#C6A984]">consulatation call</p>
-                       <p class="text-4xl text-white">+94 77 123 4567</p>
+                       <p class="text-xl text-[#C6A984]">consultation call</p>
+                       <p class="text-4xl text-white hover:text-[#C6A984]">+94 77 123 4567</p>
                     </div>
                     <div>
-                      <button class="text-4xl border border-[#C6A984] bg-[#C6A984] ml-10 p-3 m-4 text-black hover:bg-[#C0C0C0]">Free consultation</button>
+                      <button class="text-3xl border border-[#C6A984] bg-[#C6A984] ml-10 p-3 m-4 text-black hover:bg-white">Join our membership</button>
                     </div>
                 </div>
             </div>
-            <div class="text-xl text-white">
+            <div class="text-xl text-white flex justify-between">
                 <div class="space-x-3">
                     <a href="" class="hover:underline hover:text-[#C6A984]">Home</a> 
                     <a href="" class="hover:underline hover:text-[#C6A984]">Practise Areas</a> 
@@ -34,15 +35,43 @@
                     <a href="" class="hover:underline hover:text-[#C6A984]">Shop</a> 
                     <a href="" class="hover:underline hover:text-[#C6A984]">Contact</a> 
                 </div>
-                <div>
-                      <img src="assets/images/facebook-app-symbol.png">
-                      <img src="assets/images/linkedin.png">
-                      <img src="">
-                      <img src="">
-                      <img src="">
+                <div class="space-x-5 mr-35">
+                    <a href="https://www.facebook.com/"> <i class="fab fa-facebook-f hover:text-[#C6A984]"></i> </a>
+                    <a href="https://x.com/?lang=en"> <i class="fab fa-twitter hover:text-[#C6A984]"></i> </a>
+                    <a href="https://lk.linkedin.com/"> <i class="fab fa-linkedin-in hover:text-[#C6A984]"></i> </a>
+                    <a href=""><i class="fa fa-envelope hover:text-[#C6A984]"></i></a>
+                    <a href=""><i class="fab fa-instagram hover:text-[#C6A984]"></i></a>
                 </div> 
           </div>
         </nav>
+    </section>
+
+
+    <section class="bg-black text-white">
+        <div class="flex">
+            <img src="assets/images/lawyer5.png" class="h-100 w-100 ml-70 mt-20">
+            <div class="ml-30 mt-50">
+                <h1 class="text-4xl">Sebastian Wolfe</h1>
+                <p>Attorney at Law</p>
+            </div>
+            <div>
+            <button class="text-white border rounded-full bg-gray-300 "> &#8592;</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex">
+        <div class="container p-20">
+            <h1 class="text-2xl text-[#C6A984]">About Us</h1>
+            <h1 class="text-4xl text-white">Our Law Office</h1>
+            <p class="text-[#B0B0B0] text-xl">Welcome to JUSTICE BRIDGE , where legal excellence meets unwavering client commitment. With years of experience in [practice areas], we take pride in delivering strategic, results-driven representation. Whether you are facing a complex legal matter or seeking proactive counsel, our team is dedicated to protecting your interests with professionalism and discretion.</p>
+            <label class="cursor-pointer bg-[#C6A984]"></label>
+        </div>
+        <div>
+            <img src="assets/images/about.png" >
+        </div>
+    </div>
     </section>
 </body>
 </html>
